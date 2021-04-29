@@ -1,0 +1,433 @@
+/* 共通CSS */
+.border {
+  display: inline-block;
+  border-bottom: solid 3px #ec715f;
+  padding-bottom: 8px;
+}
+
+h4 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* headerに関するcss */
+nav {
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1024px;
+}
+
+ul {
+  display: flex;
+  /* justify-content: center; */
+}
+
+li {
+  list-style: none;
+  padding: 0px 30px;
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.header-icon {
+  box-sizing: border-box;
+  /* box-sizing: border-box; */
+}
+.header-icon img {
+  height: 100%;
+}
+header {
+  height: 70px;
+  background-color: #ec715f;
+  display: flex;
+  justify-content: center;
+}
+/* メインビジュアルに関する部分 */
+.container {
+  background-image: url(img/mv.png);
+  background-size: contain;
+  height: 650px;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-position: top;
+  /* margin: 0px; */
+}
+
+.main {
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin-top: 200px;
+}
+
+.main h2 {
+  font-size: 64px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main p {
+  color: white;
+}
+
+/* portfolioに関するcss */
+.portfolio {
+  background-color: #eceff1;
+  text-align: center;
+  margin: 0px;
+  /* padding: 90px; */
+}
+.content {
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-area {
+  margin: 30px 0px 90px 0px;
+}
+
+.top-img {
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  background-image: url(img/sketch.jpg);
+  height: 250px;
+  width: 300px;
+  margin: 0px 10px 10px 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  background-size: cover;
+}
+
+/* .test {
+  height: 250px;
+  width: 300px;
+} */
+
+.img2 {
+  background-image: url(img/websuku.png);
+  height: 250px;
+  width: 300px;
+  margin: 0px 10px 10px 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  background-size: cover;
+}
+.img3 {
+  background-image: url(img/write.jpg);
+  height: 250px;
+  width: 300px;
+  margin: 0px 0px 10px 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  background-size: cover;
+}
+
+.down-img {
+  display: flex;
+  justify-content: center;
+}
+
+.img4 {
+  background-image: url(img/webcamp.png);
+  height: 250px;
+  width: 300px;
+  margin: 0px 10px 10px 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  background-size: cover;
+}
+.img5 {
+  background-image: url(img/talk.jpg);
+  height: 250px;
+  width: 300px;
+  margin: 0px 10px 10px 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  background-size: cover;
+}
+.img6 {
+  background-image: url(img/webcamp-mother.png);
+  height: 250px;
+  width: 300px;
+  margin: 0px 0px 10px 0px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+  background-size: cover;
+}
+
+/* Featureに関するCSS */
+.icon-texts {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-text {
+  margin-right: 10px;
+}
+
+.icon-text.last {
+  margin-right: 0px;
+}
+
+.icon-text i {
+  font-size: 60px;
+}
+
+.icon-text h3 {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0px;
+}
+
+/* ProfileのCSS */
+.profile {
+  background-color: #eceff1;
+  text-align: center;
+  /* padding-bottom: 90px; */
+}
+
+.profile-content {
+  /* width: 1024px; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.profile h3 {
+  padding-top: 90px;
+}
+
+.profile-img {
+  width: 512px;
+  /* background-color: red; */
+}
+.profile-img img {
+  border-radius: 50%;
+  /* width: 512px; */
+}
+.profile-text {
+  width: 512px;
+  padding-bottom: 90px;
+}
+
+/* contactに関するCSS */
+.contact {
+  text-align: center;
+}
+.contact-area {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  width: 400px;
+}
+.contact-icon {
+  width: 400px;
+}
+
+.icons i {
+  font-size: 50px;
+  margin: 0px 10px;
+}
+
+footer {
+  background-color: #ec715f;
+  height: 60px;
+  position: relative;
+}
+
+.footer-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  /* -webkit- transform: translateY(-50%) translateX(-50%); */
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+/* ★★★★タブレット縦置きサイズ（425px）以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+  .profile {
+    overflow:hidden;
+  }
+
+  .container {
+    background-image:url(img/code.png);
+    height: 650px;
+    /* width: 90%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+  width: 425px;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative */
+}
+
+.menu-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #ec715f;
+    border: solid 1px white;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+
+
+
+
+
+
+/* portfolioに関するcss */
+.portfolio {
+  /* width: 90%; */
+  padding: 0px;
+}
+
+.portfolio p {
+  width: 90%;
+  margin: 0px;
+}
+
+.img-area {
+  margin: 10px auto;
+}
+
+.top-img {
+  display: block;
+  text-align: center;
+}
+.down-img {
+  display: block;
+  text-align: center;
+  /* margin: 10px auto; */
+}
+
+.present {
+  /* text-align: center; */
+  margin: 10px auto;
+  /* width: 90%; */
+}
+
+.nonimg {
+  display: none;
+  /* text-align: ; */
+}
+
+.content .text-area {
+/* width: 425px; */
+text-align :center;
+}
+
+/* FeatureのCSS */
+.content .text-area {
+  width: 90%;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+.icon-texts {
+  display: block;
+}
+
+.responsive .icon-text {
+  text-align: center;
+  margin: 0 auto;
+  /* color: blue; */
+  width: 90%;
+}
+
+ul li {
+  diplay: none;
+}
+
+/* profileのCSS */
+.profile {
+  /* width: 425px; */
+}
+.profile content {
+  width: 90%;
+}
+.profile-content{
+  display: block;
+} 
+
+.profile-img {
+  margin: 0 0;
+  /* width: 425px; */
+} 
+
+.profile-text {
+  text-align: left;
+  /* margin:0 auto; */
+  width: 90%;
+  color: blue;
+  width: 425px;
+}
+.responsive-center {
+  text-align: center;
+}
+
+/* contactのcss */
+.contact-area {
+  display: block;
+  text-align: center;
+}
+.contact-info {
+  margin: 0 auto;
+}
+.contact-icon {
+  /* margin-bottom: 90px; */
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
